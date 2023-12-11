@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         var winner = 0
         if (numButton == 0){
             val intent = Intent(this,MainActivity2::class.java)
-            MainActivity2.winnerPlayerTxt = "Player  X = Player  O "
+            MainActivity2.winnerPlayerTxt = "Player  X  = Player  O "
             startActivity(intent)
         }
         //Rows
